@@ -1,0 +1,2 @@
+class CpsController < ApplicationController
+end
