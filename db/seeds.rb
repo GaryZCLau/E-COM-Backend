@@ -30,7 +30,7 @@ female = Sex.create(gender: "female")
 # product
 # Product.create(name: "", image: "", description: "", price: , sex_id: male.id)
 mouter1 = Product.create(name: "Jacket", image: "https://cdni.llbean.net/is/image/wim/507067_244_41?hei=1095&wid=950&resMode=sharp2&defaultImage=llbstage/A0211793_2", description: "Perfect for the winter. Filled with 100% down feathers.", price: 100.00, sex_id: male.id)
-mouter2 = Product.create(name: "Suit", image: "https://gearpatrol.com/wp-content/uploads/2019/11/Everlane-Suits-gear-patrol-feature.jpg", description: "Made of 100% wool. Dry clean only.", price: 150.00, sex_id: male.id)
+mouter2 = Product.create(name: "Suit", image: "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-sandro-catalog-master-H13/default/dw865a5b7a/images/h13/Sandro_SHPVE00183-44_V_P.jpg?sw=638&sh=822&sm=fit&cx=224&cy=0&cw=1551&ch=2000", description: "Made of 100% wool. Dry clean only.", price: 150.00, sex_id: male.id)
 mouter3 = Product.create(name: "Windbreaker", image: "https://www.bigcitysportswear.com/media/catalog/product/cache/73/image/900x800/9df78eab33525d08d6e5fb8d27136e95/e/x/exp54lwz_navysaddle_front.jpg", description: "Breaker of winds, makes you go faster.", price: 50.00, sex_id: male.id)
 
 mtop1 = Product.create(name: "T-Shirt", image: "https://images-na.ssl-images-amazon.com/images/I/619z22JF%2B7L._AC_UX679_.jpg", description: "Best t-shirt in the world. Made with 100% cotton and your mum's love.", price: 12.00, sex_id: male.id)
@@ -47,7 +47,7 @@ fouter3 = Product.create(name: "Tracksuit", image: "https://assets.adidas.com/im
 
 ftop1 = Product.create(name: "T-Shirt", image: "https://images-na.ssl-images-amazon.com/images/I/619z22JF%2B7L._AC_UX679_.jpg", description: "Pre-shrunk, machine-washable. Made of 100% cotton.", price: 10.00, sex_id: female.id)
 ftop2 = Product.create(name: "Blouse", image: "https://www.ysl.com/12/12361983lu_13_a_v4.jpg", description: "For every occasion", price: 20.00, sex_id: female.id)
-ftop3 = Product.create(name: "Dress", image: "https://qbroka.com/wp-content/uploads/2019/11/715006654-1.jpg", description: "Flowy, great for a sunny day.", price: 30.00, sex_id: female.id)
+ftop3 = Product.create(name: "Dress", image: "https://cdn-images.farfetch-contents.com/13/67/58/86/13675886_16551208_600.jpg", description: "Flowy, great for a sunny day.", price: 30.00, sex_id: female.id)
 
 fbottom1 = Product.create(name: "Jeans", image: "https://lp2.hm.com/hmgoepprod?set=quality[79],source[/71/a8/71a85e32bcb7c76f6e1ed5dba1245af2e5ac0f68.jpg],origin[dam],category[ladies_plus_jeans],type[DESCRIPTIVESTILLLIFE],res[m],hmver[2]&call=url[file:/product/main]", description: "Boyfriend cut. Machine washable.", price: 20.00, sex_id: female.id)
 fbottom2 = Product.create(name: "Skirt", image: "https://images-na.ssl-images-amazon.com/images/I/71ughJzu-PL._AC_UX385_.jpg", description: "Knee-length. Perfect for every occasion.", price: 18.00, sex_id: female.id)
